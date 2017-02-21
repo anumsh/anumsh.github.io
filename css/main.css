@@ -1,0 +1,159 @@
+/* this is CSS file for styling the portfolio webpage */
+
+
+/* this is the font zocial style for setting facebook ,twitter, github icon on webpage */
+
+[class*="zocial-"]:before {
+    color: blue;
+    display: inline-block;
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+    width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+    color: #5191cc;
+}
+
+#social a {
+    margin: 0 1em 0 0;
+}
+
+#social a:last-of-type {
+    margin: 0;
+}
+
+
+/* * {
+   outline: 1px solid red;
+} */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* setting the margin for contaniner class (bootstrap grid system) */
+
+.container {
+    margin-top: 1em;
+    background:#E6E6E6;
+}
+
+
+/* setting the margins top right bottom left of navbar class */
+
+.navbar {
+    margin: 0.1em 0 0.1em ;
+}
+
+
+/* setting the hypen line with margin-top and border-top property */
+
+hr {
+    margin-top: 0.7em;
+    border-top: 0.4em solid #bcbbbb;
+}
+
+
+/* setting the width and height of body tag image */
+
+.middle-img {
+    width: 1200px;
+    height: 400px;
+}
+
+h1 {
+    font-weight: lighter;
+    margin-bottom: 5px;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 0.5em;
+    color: #f13c15;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.col-md-10,
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 35px;
+}
+
+a {
+    color: #4142c4;
+    font-weight: 300;
+    text-align: center;
+}
+
+a:hover {
+    color: #5191cc;
+    text-decoration: underline;
+}
+
+figcaption {
+    color: #c4a099;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+figure {
+    margin: 0.6em 0 0.6em 0;
+}
+
+
+/* this is class for section tag.
+it will set the padding and border-bottom of section named feature-images
+*/
+
+.feature-images {
+    padding-left: 2em;
+    border-bottom: 0.1em solid #bcbbbb;
+}
+
+
+/* this is images class of row in which I display three images
+this will set the margin-bottom of row named images
+*/
+
+.images {
+    margin-bottom: 1em;
+}
+
+
+/* setting the media queries  for h3 tag and for png udacity logo */
+
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+    h3 {
+        font-size: 2em;
+        min-height: 1em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .png-logo {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+/* setting the height and margin of footer tag */
+
+footer {
+    height: 30px;
+    margin-top: 1em;
+}

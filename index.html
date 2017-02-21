@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- this is html page from which you can view the portfolio website -->
+<html lang="en">
+
+<head>
+    <!-- unicode characters -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anum Portfolio">
+    <meta name="author" content="Anum Sharma">
+    <title>Anum Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- my own css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="img-responsive png-logo" src="img/logo.png" alt="udacity logo">
+                </div>
+                <!-- col-md-2 close -->
+                <div class="col-md-10 text-right  text-uppercase ">
+                    <h1 class="text-primary">Anum Sharma</h1>
+                    <h3 class="text-primary">Full-Stack Novice</h3>
+                </div>
+                <!-- col-md-10 close -->
+            </div>
+        </header>
+        <!--row close-->
+
+        <main>
+            <!--  main content of a document -->
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <!-- col-md-12 close -->
+            </div>
+            <!-- row close -->
+            <div class="row">
+                <div class="col-md-12">
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" class="center-block" srcset="dest/portfolio-1200_large_2x.jpg 2x, dest/portfolio-800_large_1x.jpg 1x" />
+                            <source media="(max-width: 749px)" class="center-block" srcset="dest/portfolio-600_medium.jpg" />
+                            <img class="img-responsive middle-img center-block" src="img/portfolio.jpg" alt="Body-tag" data-toggle="modal" data-target="#portfolio">
+                        </picture>
+                        <figcaption> Portfolio</figcaption>
+                    </figure>
+                </div>
+                <!-- col-md-12 close-->
+            </div>
+            <!--row-->
+            <section class="feature-work">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-muted text-capitalize">featured work</h2>
+                    </div>
+                    <!-- col-md-12 close -->
+                </div>
+                <!--row close -->
+            </section>
+            <section class="feature-images">
+                <div class="row images">
+                    <div class="col-md-4 col-sm-6 text-center">
+                        <figure>
+                            <img class="img-responsive" src="img/moviewebsite-small.png" id="movie" data-toggle="modal" data-target="#art">
+                            <figcaption>Movie Trailer Project </figcaption>
+                        </figure>
+                        <h3 class="text-uppercase">Movie Trailer</h3>
+                        <a href="https://github.com/anumsh/Movie-Website-Nanodegree-Project">Code</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-center">
+                        <figure>
+                            <img class="img-responsive" src="img/multi-user-blog-small.png" alt="blog" id="blog" data-toggle="modal" data-target="#rainbow">
+                            <figcaption>Multi-User Blog </figcaption>
+                        </figure>
+                        <h3 class="text-uppercase">Blog</h3>
+                        <a href="https://github.com/anumsh/MultiuserBLOG-ND">Code</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-center">
+                        <figure>
+                            <img class="img-responsive" src="img/item_catalog-small.png" alt="catalog" id="catalog" data-toggle="modal" data-target="#bird">
+                            <figcaption>Item Catalog</figcaption>
+                        </figure>
+                        <h3 class="text-uppercase">Item Catalog</h3>
+                        <a href="https://github.com/anumsh/Item-Catalog_ND-Project">Code</a>
+                    </div>
+                </div>
+                <!--row close -->
+            </section>
+        </main>
+    </div>
+    <!-- container div close -->
+    <footer class="text-center">
+        <div id="social">
+            <a href="https://twitter.com" class="zocial-twitter"></a>
+            <a href="https://www.facebook.com" class="zocial-facebook"></a>
+            <a href="https://plus.google.com" class="zocial-googleplus"></a>
+            <a href="https://www.linkedin.com" class="zocial-linkedin"></a>
+        </div>
+    </footer>
+    <!-- Modal for portfolio image -->
+    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="portfolio-modal">Portfolio </h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/portfolio.jpg" alt="portfolio">
+                    <p> This is my Udacity FULL-STACK NANODEGREE portfolio</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for movie-website image-->
+    <div class="modal fade" id="art" tabindex="-1" role="dialog" aria-labelledby="art-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="movie">Movie Website</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/moviewebsite.png" alt="Art">
+                    <p> &#10052;website &#10052; </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for blog image-->
+    <div class="modal fade" id="rainbow" tabindex="-1" role="dialog" aria-labelledby="rainbow-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="rainbow-modal">Blog</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-img" src="img/multi-user-blog.png" alt="blog">
+                    <p>blog </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for bird image -->
+    <div class="modal fade" id="bird" tabindex="-1" role="dialog" aria-labelledby="bluebird-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="bluebird-modal">Item Catalog</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/item_catalog.png" alt="catalog">
+                    <p>item catalog </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
