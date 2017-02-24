@@ -4,11 +4,11 @@
 /* this is the font zocial style for setting facebook ,twitter, github icon on webpage */
 
 [class*="zocial-"]:before {
-    color: blue;
+    color: black;
     display: inline-block;
     font-family: 'zocial', sans-serif;
     text-shadow: 3px 3px 3px #aaa;
-    width: 2em;
+    width: 1em;
 }
 
 a:hover [class*="zocial-"]:before {
@@ -40,7 +40,7 @@ a:hover [class*="zocial-"]:before {
 
 .container {
     margin-top: 1em;
-    /*background:#E6E6E6; */
+    background:#E1E0E5;
 }
 
 
@@ -67,7 +67,7 @@ hr {
 }
 
 h1 {
-    font-weight: lighter;
+    font-weight: bolder;
     margin-bottom: 5px;
     font-size: 3em;
 }
@@ -76,7 +76,7 @@ h3 {
     font-size: 1.5em;
     font-weight: normal;
     margin-top: 0.5em;
-    color: #f13c15;
+    color: #392013;
 }
 
 h4 {
@@ -136,7 +136,7 @@ this will set the margin-bottom of row named images
 
 /* setting the media queries  for h3 tag and for png udacity logo */
 
-@media screen and (min-width: 751px) and (max-width: 1200px) {
+@media screen and (min-width: 750px) and (max-width: 1200px) {
     h3 {
         font-size: 2em;
         min-height: 1em;
