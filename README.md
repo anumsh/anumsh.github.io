@@ -1,5 +1,3 @@
-# Live Version of Build A Portfolio Project 
+# Live Neighborhood Map Project 
 
-#### Below is the portfolio link:
 
-https://anumsh.github.io/
