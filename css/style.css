@@ -6,7 +6,7 @@ body {
 
 #backarea {
     height: 100%;
-    background-color: #6AC095;
+    background-color: #FCF3CF  ;
     overflow: scroll;
     border: 2px solid #EE9A11;
 }
@@ -32,10 +32,10 @@ body {
 
 
 h2 {
-    color: #2A221C;
-    font-family: 'Khula', sans-serif;
+    color: #309FE7  ;
+    font-family: 'Dancing Script', cursive;
     font-style: normal;
-    font-size: 25px;
+    font-size: 32px;
     font-weight: bolder;
 }
 
@@ -54,9 +54,9 @@ h4 {
 ul li {
     margin: 2px;
     padding: 1%;
-    color: #5D6D7E;
-    font-family: 'Khula', sans-serif;
-    font-size: 20px;
+    color: #88E23D  ;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -72,5 +72,5 @@ footer {
     color: #56645D;
     border-style: solid;
     border-color: #EE9A11;
-    background-color: #6AC095;
+    background-color: #FCF3CF  ;
 }
